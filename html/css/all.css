@@ -17,7 +17,6 @@ body{
 }
 
 .header{
-    display: inline-block;
     margin-left: 120px;
     margin-top: 87px;
     font-weight: 700;
@@ -34,7 +33,7 @@ body{
     list-style: none;
 }
 
-a{
+.nav > li> a{
     text-decoration: none;
     color: #3A3A3A;
     font-size: 20px;
@@ -42,6 +41,42 @@ a{
 
 li{
     margin-left: 36px;
+}
+
+.left-side{
+    margin-left: 120px;
+    margin-top: 87px;
+    width: 582px;
+    height: 133px;
+}
+
+.button{
+    background-color: #E02C6D;
+    width: 25%;
+    padding: 10px;
+    border-radius: 25px;
+}
+.button > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.button:hover{
+    transform: scale(110%);
+    box-shadow: 10px 10px 10px 5px #ee99b8;
+}
+
+/* icon colour */
+.button> .fa-solid{
+    color: white;
+}
+
+.right-side{
+    margin-top: 80px;
+    width: 440px;
+    height: 414px;
+    
 }
 
 
