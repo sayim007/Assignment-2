@@ -79,5 +79,20 @@ li{
     
 }
 
+/* Ecomarce */
+
+.ecomarce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ecomarce > a{
+    margin-left: 2%;
+}
+
+.ecomarce > a > img{
+    width: 70%;
+}
 
 
