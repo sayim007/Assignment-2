@@ -119,6 +119,13 @@ li{
 
 /* ------Products------ */
 
+.grid-container{
+    display: grid;
+    margin-left: 120px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+
 .products-header{
     text-align: center;
     font-weight: 600;
@@ -153,11 +160,21 @@ li{
 .ratting-number{
     margin-left: 1%;
 }
-.product-detail{
+.product-drisciption{
     font-family: 'Inter', sans-serif;
     width: 196px;
     font-size: 14px;
     line-height: 143%;
     font-weight: 700;
+}
+
+.more{
+    text-align: right;
+    margin-right: 215px;
+    margin-top: 50px;
+}
+.more >a{
+    text-decoration: none;
+    color: #E02C6D;
 }
 
