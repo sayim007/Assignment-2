@@ -21,6 +21,10 @@ body{
     justify-content: space-between;
 }
 
+.blog-section{
+    display: flex;
+}
+
 .header{
     margin-left: 120px;
     margin-top: 87px;
@@ -181,5 +185,44 @@ li{
     height: 24px;
 }
 
+.last-button > a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    width: 110px;
+    border-radius: 5px;
+}
+.last-button:hover {
+    transform: scale(102%);
+}
+
+/*-------- Foter style ---------*/
+
+footer{
+    background-color: #0A0826;
+    padding: 20px;
+    
+}
+
+.footer-discription{
+    color: white;
+    text-align: center;
+}
+
+.footer-header{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.link > a{
+    color: white;
+    font-size: x-large;
+    margin-left: 16px;
+}
+
+.link>a>i:hover {
+    transform: scale(110%);
+}
 
 
