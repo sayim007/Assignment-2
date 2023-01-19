@@ -246,9 +246,7 @@ footer{
     }
 
     .nav{
-        margin: auto;
-        flex-direction: column;
-        text-align: center;
+        display: none;
     }
 
     .left-side{
@@ -283,3 +281,53 @@ footer{
     
 }
 
+/*------- Tablet Devices -------*/
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .top-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        text-align: center;
+        margin: auto;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .left-side{
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+    .right-side{
+        margin: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .grid-container{
+        justify-items: center;
+        margin: 0px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .more{
+        margin: auto;
+        text-align: center;
+    }
+    
+    .blog-section{
+        display: none;
+    }
+    footer{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+}
